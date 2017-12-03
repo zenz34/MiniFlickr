@@ -1,0 +1,24 @@
+{
+  "name": "miniflickr",
+  "version": "1.0.0",
+  "description": "To implement a simple \"mini flickr\" project to show pictures get from flickr by using flickr api.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyfyzzk/MiniFlickr.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fyfyzzk/MiniFlickr/issues"
+  },
+  "homepage": "https://github.com/fyfyzzk/MiniFlickr#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "flickrapi": "^0.6.0"
+  }
+}
